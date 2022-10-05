@@ -1,0 +1,261 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container">
+
+  <div class="heading">
+   <img src="static/logo.png" alt="" class = "logo" >
+    <center class="logoname"><b>JYOTI ONLINE YOGA TRAINING CENTER</b></center> 
+  </div> 
+   
+  <div class="heading1">
+   <center><h1 class="heading1body1">Yoga Classes</h1></center>
+   <center><h1 class="heading1body2">with Jyoti Deep</h1></center>
+   <center class="heading1body3">​Discover fitness, inner peace, balance, and calmness with Arsha Samyoga.</center>
+   <center class="heading1body4">Join us for just 1 week, and we guarantee that you will come back for more. Find out why we will be the best for you.</center>
+  </div>
+
+ 
+
+</div>
+
+<div class="container my-3">
+<h1 class="my-4 text-center">Select from our range of ice creams</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+        <img src="https://source.unsplash.com/1200x900/?gym" class="d-block w-100" alt="...">
+            
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="https://source.unsplash.com/1200x900/?exercise" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="https://source.unsplash.com/1200x900/?meditation" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+           <img src="https://source.unsplash.com/1200x900/?exercise,meditation" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+    
+}
+
+.logoname{
+    font-size: 40px;
+    margin-top:  18px;
+    margin-bottom: 18px;
+}
+
+.heading{
+    background-color: bisque;
+}
+
+.heading1body1{
+    font-size: 50px;
+    color: rgb(167, 134, 73);
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+
+.heading1body2{
+    font-size: 35px;
+    color: rgb(167, 134, 73);
+    margin-bottom: 15px;
+}
+
+.heading1body3{
+    font-size: 25px;
+    padding: auto;
+    margin-bottom: 10px;
+}
+
+.heading1body4{
+    font-size: 20px;
+    padding: auto;
+    margin-bottom: 10px;
+}
+
+.heading2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading2body1{
+    
+    margin-left: auto;
+    margin-right: auto;
+    flex: 33.33%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.heading2body2{
+    
+    margin-left: auto;
+    margin-right: auto;
+    flex: 33.33%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.heading2body3{
+    
+    margin-left: auto;
+    margin-right: auto;
+    flex: 33.33%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+</style>
+{% endblock body %}
+
+{% extends 'base.html' %}
+
+{% block title %}Contact{% endblock title %}
+
+{% block body %}
+<!-- Header -->
+<header class="bg-primary text-center py-5 mb-4">
+    <div class="container">
+      <h1 class="fw-light text-white">Meet the Team</h1>
+    </div>
+  </header>
+  
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <!-- Team Member 1 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/static/r1.jpeg" class="card-img-top" alt="..." height=335.63 width=200>
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Rahul Gupta</h5>
+            <div class="card-text text-black-50">Managing Director</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 2 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow" >
+          <img src="/static/jd.png" class="card-img-top" alt="..." height=335.63 width=200>
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Jyoti Deep</h5>
+            <div class="card-text text-black-50">Meditation and Yoga Sutras</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 3 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/static/home.jpg" class="card-img-top" alt="..." height=335.63 width=200>
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Saikat Chowdhury</h5>
+            <div class="card-text text-black-50">Advisor and Guide</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 4 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/static/a.jpeg" class="card-img-top" alt="..." height=335.63 width=200>
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Sannidhi</h5>
+            <div class="card-text text-black-50">Yoga Therapy Teacher</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+  
+  </div>
+  <!-- /.container -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container mb-3 py-4">
+    <h1 class="text-center">Contact Us</h1>
+    <form method="post" action="/contact">
+    {% csrf_token %}
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email">
+        </div>
+        
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="phone" class="form-control" id="phone" name="phone" placeholder="Enter Your Phone Number">
+        </div>      
+        
+        <div class="form-group">
+            <label for="desc">Tell me about what you want to contact me for...</label>
+            <textarea class="form-control" id="desc" rows="3" name="desc"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+</div>
+
+<!-- Footer-->
+<div class="py-5 bg-black">
+    <div class="container px-5"> <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2022</p></div></div> 
+  
+
+{% endblock body %}
+

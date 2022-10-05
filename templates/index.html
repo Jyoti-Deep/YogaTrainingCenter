@@ -1,0 +1,170 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{%load static%}
+<link rel="stylesheet" href="{%static 'styles.css'%}">
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">  
+<script src="{% static 'js/bootstrap.min.js' %}"></script>  
+
+
+{% block body %}
+ <!-- Header-->
+ <header class="masthead text-center text-white">
+  <div class="masthead-content">
+      <div class="container px-5">
+          <h1 class="masthead-heading mb-0">Yoga And Meditation</h1>
+          <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
+          <h2 class="masthead-subheading mb-0">Learn with Jyoti Yoga Training Center!</h2>
+          <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
+      </div>
+  </div>
+
+</header>
+<!-- Content section 1-->
+<section id="scroll">
+  <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+          <div class="col-lg-6 order-lg-2">
+              <div class="p-5"><img class="img-fluid rounded-circle" src="/static/yoga-anywhere.jpg" alt="..." /></div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+              <div class="p-5">
+                  <h2 class="display-4">Yoga Anywhere!</h2>
+                  <p>All our yoga classes includes Basic and advanced Yogasana practices, Pranayama, Meditation (Sanjeevani meditation, Cyclic meditation, Omkara meditation).</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Content section 2-->
+<section>
+  <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+          <div class="col-lg-6">
+              <div class="p-5"><img class="img-fluid rounded-circle" src="/static/online-yoga.jpg" alt="..." /></div>
+          </div>
+          <div class="col-lg-6">
+              <div class="p-5">
+                  <h2 class="display-4">Online Courses</h2>
+                  <p>We offer and conduct regular online group/private yoga classes that are suitable for families and perfect for similar level yoga practitioners. These online group private yoga classes are useful for a group of regular yoga practitioners those who would like to practice together in small group and tailor make each class as per their level and goals.
+
+                    These classes are taught by highly experienced and qualified yoga masters who teach basic, intermediate and advanced poses (asanas), breathing techniques (Pranayamas), and meditation techniques, etc.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Content section 3-->
+<section>
+  <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+          <div class="col-lg-6 order-lg-2">
+              <div class="p-5"><img class="img-fluid rounded-circle" src="/static/asana.jpg" alt="..." /></div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+              <div class="p-5">
+                  <h2 class="display-4">Our Approach to Asana Practice
+                  </h2>
+                  <p>A distillation of years of study and a lifetime of movement practice has moulded our approach to Vinyasa Flow and Hatha, which is an intelligent and transformational methodology that is easy to learn and teach, and helps people to go deep into their practice with lightness and grace. It is bio-mechanically savvy, features key actions for empowerment and freedom in the body, and is grounded in principles of sequencing that allow people to soar in every class.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<div class="center-port">
+  <p>OUR PORTFOLIO!</p>
+</div>
+
+
+
+<!-- Gallery -->
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="/static/001.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+
+    <img
+      src="/static/002.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="/static/003.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Mountains in the Clouds"
+    />
+
+    <img
+      src="/static/004.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="/static/005.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="/static/006.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+</div>
+<!-- Gallery -->
+
+<!-- Footer-->
+<div class="py-5 bg-black">
+  <div class="container px-5"> <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2022</p></div></div> 
+
+
+
+
+<style>
+  header.masthead {
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-image: url('/static/hm1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.center-port {
+  text-align: center;
+  text-decoration: double;
+  font-weight: bold;
+  font-size: 5vw;
+  font-style: italic;
+  font-family: fantasy;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+</style>
+
+{% endblock body %}
